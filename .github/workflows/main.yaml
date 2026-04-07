@@ -3,7 +3,7 @@ name: CL Pipeline
 on:
   push:
     branches: ["main"]
-  pulll_request:
+  pull_request:
 
 jobs:
   build:
